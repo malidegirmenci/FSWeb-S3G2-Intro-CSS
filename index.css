@@ -1,0 +1,23 @@
+.nav-section{
+}
+nav{
+    text-align: center;
+}
+#plan-in-nav{
+    background-color: #FF764E;
+}
+#info-in-nav{
+    background-color: #5ED3EB;
+}
+#compare-in-nav{
+    background-color: #FFCD69;
+}
+a {
+    text-decoration: none;
+    color:white;
+    padding: 10px;
+    margin-left: 10%;
+    margin-right: 10%;
+    border-radius: 10px;
+    display: inline-block;
+}

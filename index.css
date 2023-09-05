@@ -31,6 +31,7 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
 	line-height: 1;
+    background-color: rgb(222, 222, 222);
 }
 ol, ul {
 	list-style: none;
@@ -47,12 +48,14 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-
+/*RESET CSS*/
 .container{
     width: 1000px;
+    margin: 0 auto;
+    background-color: white;
 }
 .nav-section{
-    margin-top: 20px;
+    padding-top: 20px;
 }
 #plan-in-nav{
     background-color: #FF764E;
@@ -66,7 +69,7 @@ table {
     background-color: #FFCD69;
     padding-top: 20px;
 }
-.nav-section a,
+.nav-section nav a,
 .footer-section .footer-nav a {
     display: inline-block;
     text-decoration: none;
@@ -78,11 +81,11 @@ table {
     min-height:60px;
     box-sizing: border-box;
     text-align: center;
+    vertical-align: middle;
 }
 .header-section{
     margin-top: 50px;
     margin-bottom: 50px;
-    display: flex;
     align-items: center;
 }
 
@@ -92,13 +95,16 @@ table {
     margin-right: auto;
     text-align: center;
 }
+
 .img-area{
     width: 30%;
 }
 .text-area{
-    width: 60%;
+    width: 69%;
+    vertical-align: top;
 }
 .text-area p{
+    margin-top: 20px;
     font-size: 1rem;
 }
 .header-img {
@@ -148,7 +154,7 @@ p {
     font-weight: bold;
 }
 .footer-section{
-    width: 100vw;
+    width: 100%;
 }
 .footer-img-area {
     height: 200px;

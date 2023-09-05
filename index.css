@@ -1,7 +1,7 @@
 .nav-section{
 }
 nav{
-    text-align: center;
+    
 }
 #plan-in-nav{
     background-color: #FF764E;
@@ -13,11 +13,45 @@ nav{
     background-color: #FFCD69;
 }
 a {
+    display: inline-block;
     text-decoration: none;
     color:white;
     padding: 10px;
+    border-radius: 10px;
     margin-left: 10%;
     margin-right: 10%;
-    border-radius: 10px;
+}
+.header-section{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: flex;
+    align-items: center;
+}
+
+.header-section div{
     display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+.img-area{
+    width: 30%;
+}
+.text-area{
+    width: 60%;
+}
+.header-img {
+    margin-right: 20px;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+h1 {
+    font-family: 'Chelsea Market', cursive;
+    font-size: 2rem;
+}
+
+p {
+    font-family: 'Roboto Mono', monospace;;
 }

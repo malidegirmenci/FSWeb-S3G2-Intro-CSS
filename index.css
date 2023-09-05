@@ -1,25 +1,83 @@
-.nav-section{
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
 }
-nav{
-    
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+.container{
+    width: 1000px;
+}
+.nav-section{
+    margin-top: 20px;
 }
 #plan-in-nav{
     background-color: #FF764E;
+    padding-top:12px;
 }
 #info-in-nav{
     background-color: #5ED3EB;
+    padding-top: 20px;
 }
 #compare-in-nav{
     background-color: #FFCD69;
+    padding-top: 20px;
 }
-a {
+.nav-section a,
+.footer-section .footer-nav a {
     display: inline-block;
     text-decoration: none;
     color:white;
-    padding: 10px;
     border-radius: 10px;
     margin-left: 10%;
     margin-right: 10%;
+    width: 120px;
+    min-height:60px;
+    box-sizing: border-box;
+    text-align: center;
 }
 .header-section{
     margin-top: 50px;
@@ -45,8 +103,8 @@ a {
 }
 .header-img {
     margin-right: 20px;
-    width: 150px;
-    height: 150px;
+    width: 200px;
+    height: 200px;
     border-radius: 50%;
 }
 
@@ -58,6 +116,7 @@ h1 {
 p {
     font-family: 'Roboto Mono', monospace;
 }
+
 .content-main-text{
     background-color: #DDB9A3;
 }
@@ -67,11 +126,13 @@ p {
     margin-left: 10%;
     margin-right: 10%;
     text-align: center;
+    margin-bottom: 20px;
 }
 .content-row div{
     margin-left: auto;
     margin-right: auto;
     text-align: center;
+    margin-bottom: 10px;
 }
 .content-row img{
     width: 64px;
@@ -86,4 +147,20 @@ p {
 .content-row span{
     font-weight: bold;
 }
-
+.footer-section{
+    width: 100vw;
+}
+.footer-img-area {
+    height: 200px;
+    overflow: hidden;
+}
+.footer-section .img-area img{
+    clip-path: inset(0 0 50% 0);
+}
+.footer-nav{
+    height: 100px;
+    background-color: #F9E7DC;
+}
+.footer-nav a{
+    margin-top: 15px;
+}

@@ -40,6 +40,9 @@ a {
 .text-area{
     width: 60%;
 }
+.text-area p{
+    font-size: 1rem;
+}
 .header-img {
     margin-right: 20px;
     width: 150px;
@@ -53,5 +56,34 @@ h1 {
 }
 
 p {
-    font-family: 'Roboto Mono', monospace;;
+    font-family: 'Roboto Mono', monospace;
 }
+.content-main-text{
+    background-color: #DDB9A3;
+}
+.content-main-text p {
+    font-size: .7rem;
+    color:white;
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: center;
+}
+.content-row div{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+.content-row img{
+    width: 64px;
+    height: auto;
+}
+.content-row p{
+    width: 250px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+.content-row span{
+    font-weight: bold;
+}
+
